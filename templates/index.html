@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <form action = 'result/' method = 'post'>
+        {%  csrf_token %}
+        Full Name : <br>
+        <input type = 'text' name = 'fullname' id = 'fullname'><br>
+        Email Id:<br>
+        <input type = 'text' name = 'email' id = 'email'>
+        <br>
+        Quantity:<br>
+        <input type = 'text' name = 'quantity' id = 'quantity'><br>
+        Rate:<br>
+        <input type = 'text' name = 'rate' id = 'rate'><br>
+        <input type = 'submit'>
+
+    </form>
+</body>
+</html>
